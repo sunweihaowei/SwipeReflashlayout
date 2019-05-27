@@ -14,7 +14,11 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
+    //SwipeRefreshLayout总结：
+    /*
+    把布局包在里面，设置监听，把要实现的功能，写在监听里
 
+    */
     private RecyclerView rcv;
     private SwipeRefreshLayout wr;
     private myadapter myadapter1;
